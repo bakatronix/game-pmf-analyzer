@@ -1,9 +1,9 @@
 #!/bin/bash
 # Sync: local → git → build → FTP
-# Usage: bash /Users/abbas/GameOS/PMF/sync.sh "commit message"
+# Usage: bash /Users/abbas/Projects/GameOS/PMF/sync.sh "commit message"
 
 set -e
-cd "/Users/abbas/GameOS/PMF"
+cd "/Users/abbas/Projects/GameOS/PMF"
 MSG="${1:-update}"
 
 echo "=== 1. Git push ==="
